@@ -16,6 +16,10 @@
 
  ```git reset --hard HEAD^``` [回退到上一个版本]
 
- ```git reset --hard <commit_id>``` [回退到指定的版本]
+ ```git reset --hard <commit_id>``` [回退到指定的版本
+ 
+ ```git diff HEAD -- <fillename>``` [查看工作区(存放已经添加的文件的区域)和版本库里面最新版本的区别]
 
  ```git reflog``` [查看自己执行的命令历史记录]
+ 
+ 
