@@ -54,5 +54,4 @@
  > 后，将相应的bug分支合并到master分支上，并将那个bug分支删除即可，这样能时刻保证master中的代码是能正常运行的代码
  
  ``` git log --graph ``` [可以查看分支合并图
- 
- <div style="width:100%;height:40px;line-height:40px;vertical-align:middle;box-sizing:border-box;padding-left:20px;background-color:#3e3e3e;color:#ffffff;">html标签测试</div>
+
