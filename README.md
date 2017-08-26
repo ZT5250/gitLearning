@@ -21,6 +21,8 @@
  ``` git reset --hard <commit_id> ``` [回退到指定的版本
  
  ``` git diff HEAD -- <fillename> ``` [查看工作区(存放已经添加的文件的区域)和版本库里面最新版本的区别]
+ 
+ ``` git blame <文件名> ``` [查看文件具体的修改历史，每次的commit id 和提交的内容]
 
  ``` git reflog ``` [查看自己执行的命令历史记录]
  
