@@ -77,9 +77,9 @@
  
  ``` git pull <远程仓库别名> <本地分枝> ``` [从远程仓库拉取最新的代码到本地分支]
  
- > 以下三条命令与git pull有相同的作用，但是更安全，可以自己选择是否要合并到本地分支
- > ``` git fetch <远程仓库别名> <远程分支> ``` [获取远程制定分支最新的代码库的commit信息]
- > ``` git checkout -b newbranch origin/margin ``` [将远程仓库origin的master分支在本地创建一个分支newbranch]
+ > 以下三条命令与git pull有相同的作用，但是更安全，可以自己选择是否要合并到本地分支<br>
+ > ``` git fetch <远程仓库别名> <远程分支> ``` [获取远程制定分支最新的代码库的commit信息]<br>
+ > ``` git checkout -b newbranch origin/margin ``` [将远程仓库origin的master分支在本地创建一个分支newbranch]<br>
  > ``` git merge newbranch ``` [将创建的分支与当前分支合并]
  
  
