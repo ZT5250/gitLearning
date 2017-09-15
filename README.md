@@ -85,7 +85,19 @@
  > ``` git fetch <远程仓库别名> <远程分支>:<本地分支名称> ``` [获取远程指定分支最新的代码库并在本地创建一个分支]<br>
  > ``` git merge <本地分支> ``` [将创建的分支与当前分支合并，可以先执行 ``` git diff <本地分支> ``` 查看具体的修改，自己决定是否需要合并分支]
  
+ ## Git常用别名配置
+ ``` git config --global alias.st status ``` [为 ``` git status ``` 配置别名，以后就可以直接使用``` git st ``` 来达到同样的效果]
  
+ ``` git config --global alias.co checkout ``` [为 ``` git checkout ``` 配置别名，以后就可以直接使用``` git co ``` 来达到同样的效果]
  
+ ``` git config --global alias.ci commit ``` [为 ``` git commit ``` 配置别名，以后就可以直接使用``` git ci ``` 来达到同样的效果]
  
-
+ ``` git config --global alias.br branch ``` [为 ``` git branch ``` 配置别名，以后就可以直接使用``` git br ``` 来达到同样的效果]
+ 
+ ``` git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" ```
+ 
+ [格式化处理一下日志显示，让查看日志更清晰直观]
+ 
+ ![格式化之后的日志](https://www.liaoxuefeng.com/files/attachments/00138492662982594cbd1a942114472aeeb5f0a502faed1000/0)
+ 
+ > 引用 [廖雪峰老师的图片](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375234012342f90be1fc4d81446c967bbdc19e7c03d3000)
