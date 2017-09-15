@@ -94,7 +94,7 @@
  
  ``` git config --global alias.br branch ``` [为 ``` git branch ``` 配置别名，以后就可以直接使用``` git br ``` 来达到同样的效果]
  
- ``` git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) <br> %C(bold blue)<%an>%Creset' --abbrev-commit" ```
+ ``` git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) </br> %C(bold blue)<%an>%Creset' --abbrev-commit" ```
  
  [格式化处理一下日志显示，让查看日志更清晰直观]
  
