@@ -96,7 +96,11 @@
  
  ``` git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit" ```
  
- [格式化处理一下日志显示，让查看日志更清晰直观]![格式化之后的日志][https://www.liaoxuefeng.com/files/attachments/00138492662982594cbd1a942114472aeeb5f0a502faed1000/0]
+ [格式化处理一下日志显示，让查看日志更清晰直观]
+ 
+ ![格式化之后的日志(引用廖雪峰老师的图片)][https://www.liaoxuefeng.com/files/attachments/00138492662982594cbd1a942114472aeeb5f0a502faed1000/0]
+ 
+ #### 引用 [廖雪峰老师的图片][https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375234012342f90be1fc4d81446c967bbdc19e7c03d3000]
  
  
  
