@@ -23,6 +23,16 @@
  ``` git log -p -1 ``` [查看最近一次的commit日志信息，并列出不同的内容]
  
  ``` git log --stat ``` [查看所有的commit日志信息，并列出所有文件的修改行数（不显示具体的改动内容）]
+ 
+ ``` git log --author=test ``` [查看test推送的所有commit日志信息]
+ 
+ ``` git log --name-only ``` [仅在提交信息后显示已修改的文件清单。]
+ 
+ ``` git log --name-status ``` [列出commit中文件的新增、修改、删除的文件清单。]
+ 
+ ``` git log master ^dev ``` [查看master分支有，dev分支没有的commit日志信息]
+ 
+ ``` git log dev ^master ``` [查看dev分支有，master分支没有的commit日志信息]
 
  ``` git reset --hard HEAD^ ``` [回退到上一个版本]
 
