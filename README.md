@@ -15,6 +15,12 @@
  ``` git log ``` [查看提交历史]
  
  ``` git log --pretty=oneline ``` [简化log信息]
+ 
+ ``` git log -1 ``` [查看最近一次的commit日志信息]
+ 
+ ``` git log -p -1 ``` [查看最近一次的commit日志信息，并列出不同的内容]
+ 
+ ``` git log --stat ``` [查看所有的commit日志信息，并列出所有文件的修改行数（不显示具体的改动内容）]
 
  ``` git reset --hard HEAD^ ``` [回退到上一个版本]
 
