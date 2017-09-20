@@ -30,6 +30,10 @@
  
  ``` git log --name-status ``` [列出commit中文件的新增、修改、删除的文件清单。]
  
+ ``` git log --since=1.days ``` [当前时间之前1天的commit日志信息,也可以使用after]
+ 
+ ``` git log --until=1.days ``` [前1天到最初的所有commit日志信息,也可以使用before]
+ 
  ``` git log master ^dev ``` [查看master分支有，dev分支没有的commit日志信息]
  
  ``` git log dev ^master ``` [查看dev分支有，master分支没有的commit日志信息]
