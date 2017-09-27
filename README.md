@@ -1,3 +1,5 @@
+![Git logo](https://raw.githubusercontent.com/ZT5250/gitLearning/master/gitlogo%402x.png)
+
 # Git常用命令记录
 
 ## Git本地操作相关命令
@@ -15,6 +17,26 @@
  ``` git log ``` [查看提交历史]
  
  ``` git log --pretty=oneline ``` [简化log信息]
+ 
+ ``` git log -1 ``` [查看最近一次的commit日志信息]
+ 
+ ``` git log -p -1 ``` [查看最近一次的commit日志信息，并列出不同的内容]
+ 
+ ``` git log --stat ``` [查看所有的commit日志信息，并列出所有文件的修改行数（不显示具体的改动内容）]
+ 
+ ``` git log --author=test ``` [查看test推送的所有commit日志信息]
+ 
+ ``` git log --name-only ``` [仅在提交信息后显示已修改的文件清单。]
+ 
+ ``` git log --name-status ``` [列出commit中文件的新增、修改、删除的文件清单。]
+ 
+ ``` git log --since=1.days ``` [当前时间之前1天的commit日志信息,也可以使用after]
+ 
+ ``` git log --until=1.days ``` [前1天到最初的所有commit日志信息,也可以使用before]
+ 
+ ``` git log master ^dev ``` [查看master分支有，dev分支没有的commit日志信息]
+ 
+ ``` git log dev ^master ``` [查看dev分支有，master分支没有的commit日志信息]
 
  ``` git reset --hard HEAD^ ``` [回退到上一个版本]
 
