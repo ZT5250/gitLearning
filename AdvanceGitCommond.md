@@ -41,15 +41,10 @@
  
 ### 调试功能
  ``` git bisect start ``` [开始进行调试]
-<<<<<<< HEAD
  
  ``` git bisect bad ``` [告诉git当前commit是bad]
  
  ``` git bisect good commitid ``` [在告诉git哪一个commit是good，然后git就会在当前的commit和good commit之间进行二分查找，不停的切换到对应的commit上，本地进行调试通过之后，通过执行 ``` git bisect good/bad ```告诉git当前测试的commit是好的还是坏的，最终git会找出第一次出现错误的commit，然后我们就可以定位出现问题的commit，并进行相应的错误检查]
  
-=======
- ``` git bisect bad ``` [告诉git当前commit是bad]
- ``` git bisect good commitid ``` [在告诉git哪一个commit是good，然后git就会在当前的commit和good commit之间进行二分查找，不停的切换到对应的commit上，本地进行调试通过之后，通过执行 ``` git bisect good/bad ```告诉git当前测试的commit是好的还是坏的，最终git会找出第一次出现错误的commit，然后我们就可以定位出现问题的commit，并进行相应的错误检查]
->>>>>>> 344520a946f89fc8fc5a6e318a69ffd27c6bf7fa
  ``` git bisect reset ``` [调试完毕之后，在执行一遍此命令，会将你带回到正常的状态，否则会停留在一个奇怪的分支中]
  
