@@ -54,3 +54,9 @@
  ``` git pull origin [远程分支]:[本地分支] ``` [将远程仓库中指定分支的内容拉取到本地的指定分支上]
  
  ``` git push origin --delete [远程分支] ``` [删除指定的远程分支]
+ 
+ ``` git checkout --track origin/serverfix ``` [以指定的远程分支为基础在本地创建一个与远程分支同名的分支]
+ 
+ ``` git checkout -b sf origin/serverfix ``` [以指定的远程分支为基础在本地创建一个分支（可以自己指定一个与远程分支不同的名称）]
+ 
+ ``` git branch -u origin/serverfix ``` [将当前分支与指定分支建立追踪关系]
